@@ -1,0 +1,78 @@
+body {
+	background-color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #4caf50;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 8px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #0a910e;
+}
+
+img {
+	border-radius: 8px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.riik {
+	border: 2px #ddd;
+	background-color: #f3fff0;
+	border-radius: 8px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+
+div.text {
+	width: 800px;
+	text-align: justify;
+}
+
+#linnad {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 10%;
+}
+
+#linnad td,
+#linnad th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#linnad tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#linnad tr:hover {
+	background-color: #ddd;
+}
+
+#linnad th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4caf50;
+	color: white;
+}
